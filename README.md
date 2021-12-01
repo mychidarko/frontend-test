@@ -6,8 +6,9 @@
 
 <b>Requirements</b>
 
-1. Page should be responsive
-2. Keep a history of work through your commits
+1. Store information should be loaded from <a href="https://run.mocky.io/v3/34fe3dbb-5503-47e4-a7d7-f0809d828e09">Mock data</a>
+2. Page should be responsive
+3. Keep a history of work through your commits
 
 <b>Nice to haves</b>
 
