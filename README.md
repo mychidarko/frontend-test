@@ -1,26 +1,31 @@
-## Frontend Take Home Challenge
+# HussleSasa Challenge
 
-<b>Problem</b> HustleSasa needs a Nextjs application to display a list of products for a vendor
+## Overview
 
-<a href="https://docs.google.com/presentation/d/1Jb3OL2JcGnXt8bltDzmZ8JN8D5wvryRJ94S5Oky1KEI/edit?usp=sharing">Design Link</a>
+This is a simple store front app bootstrapped with Next JS + TypeScript. A preview of this is hosted with [vercel](https://vercel.com) and is available at [https://hussle.vercel.app/](https://hussle.vercel.app/)
 
-<b>Requirements</b>
+## Set up
 
-1. Store information should be loaded from <a href="https://run.mocky.io/v3/5194b007-b9b9-4748-a63f-f5db0ee4cd47">Mock data</a>
-2. Page should be responsive
-3. Keep a history of work through your commits
+To set up this project locally, you need [nodejs](https://nodejs.org/en/) installed on your system.
 
-<b>Nice to haves</b>
+From there:
 
-1. Unit tests
-2. Styled components
-3. Typescript
+- Clone this project or download it via the download button
 
-<b>Deliverables</b>
+- Open the root directory and install any dependencies this project needs.You can use either npm or yarn to install missing dependencies and run the project.
 
-1. Link to codebase on Github
-2. Clear documentation on how to get the application running locally on any machine
+```sh
+npm i && npm run dev
+```
 
-We respect your time, and we understand that you are already busy. We only expect 4 hours to be spent completing this challenge. If you would like to spend more time working on it, you are free to do so, but please know that if you do not finish, it is not the end of the world. At the end of the day, we want to see the way you tackle problems and that you can write code.
+Or with yarn
 
-If you have any questions during this process, feel free to ask!
+```sh
+yarn && yarn dev
+```
+
+## Tech Stack
+
+- Next JS
+- TypeScript
+- Styled Components
