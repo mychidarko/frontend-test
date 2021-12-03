@@ -15,7 +15,8 @@ const ShopInfo: React.FC<{storeData: StoreData}> = ({ storeData }) => {
                         <h2>{storeData.hustle.name}</h2>
                         <p>
                             Home of the best shoes in town. Get free delivery
-                            for orders above KES 5,000 countrywide.
+                            for orders above KES 5,000 countrywide. <br />
+                            This is a store description area. We can define number of character.
                         </p>
                         <div className="links">
                             <a href="#">Facebook</a> / <a href="#">Instagram</a>{" "}

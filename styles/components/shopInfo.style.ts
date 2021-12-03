@@ -25,9 +25,11 @@ export const TextContainer = styled.div`
 
     p {
         max-width: 80%;
+        color: #888;
     }
 
     a {
         text-decoration: underline;
+        color: #888;
     }
 `;
