@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { StoreData } from "../@types/data";
 import Banner from "../components/Banner";
+import ShopInfo from "../components/ShopInfo";
 import TopNav from "../components/TopNav";
 import { Main } from "../styles/components/main.style";
 import { useGet } from "../utils/hermes";
@@ -37,6 +38,7 @@ const Home: NextPage = () => {
             <Main>
                 <TopNav />
                 <Banner storeData={shopData} />
+                <ShopInfo storeData={shopData} />
             </Main>
         </div>
     );

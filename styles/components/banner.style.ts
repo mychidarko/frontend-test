@@ -10,6 +10,6 @@ export const BannerImg = styled.img`
     }
 
     ${theme.breakpoints.md} {
-        border-radius: ${theme.radius.md};
+        border-radius: ${theme.radius.lg};
     }
 `;
