@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { StoreData } from "../@types/data";
+import { Main } from "../styles/components/main.style";
 import { useGet } from "../utils/hermes";
 
 const Home: NextPage = () => {
@@ -30,6 +31,10 @@ const Home: NextPage = () => {
                     href={shopData?.hustle?.shop_logo ||  "/favicon.ico"}
                 />
             </Head>
+            
+            <Main>
+                Hello
+            </Main>
         </div>
     );
 };
