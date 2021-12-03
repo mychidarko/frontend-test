@@ -55,6 +55,10 @@ export const ProductContainer = styled.div`
     width: calc(50% - 5px);
     margin-bottom: 20px;
 
+    ${theme.breakpoints.xs} {
+        margin-top: 25px;
+    }
+
     ${theme.breakpoints.md} {
         width: calc(33% - 5px);
         margin-top: 30px;
